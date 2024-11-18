@@ -1,9 +1,9 @@
-CTYPE html>
+<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的個人網<!DO站</title>
+    <title>我的個人網站</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,13 +24,11 @@ CTYPE html>
                 <img src="profile.jpg" alt="個人照片" class="profile-image">
                 <div class="profile-info">
                     <h1>翁睿廷</h1>
-                    <p>我的名子是翁睿廷，我就讀世新大學英語暨傳播應用學系
-    
-                    </p>
+                    <p>我的名字是翁睿廷，我就讀世新大學英語暨傳播應用學系。</p>
                     <div class="social-links">
-                        <a href="mailto:your@email.com" class="social-btn">Email</a>
-                        <a href="#" class="social-btn">LinkedIn</a>
-                        <a href="#" class="social-btn">Instagram</a>
+                        <a href="javascript:void(0)" onclick="showEmail()" class="social-btn">Email</a>
+                        <a href="https://www.twitch.tv/directory" target="_blank" class="social-btn">Twitch</a>
+                        <a href="https://www.instagram.com/j_u_s_t_i_n9506/" class="social-btn">Instagram</a>
                     </div>
                 </div>
             </div>
@@ -46,8 +44,8 @@ CTYPE html>
                 </div>
             </div>
             <div class="interactive-questions">
-                <button onclick="askQuestion('archery')">你對射箭有興趣嗎？</button>
-                <button onclick="askQuestion('basketball')">你也喜歡打籃球嗎？</button>
+                <button onclick="askQuestion('weather')">今天天氣如何？</button>
+                <button onclick="askQuestion('money')">如何賺錢？</button>
             </div>
         </section>
 
